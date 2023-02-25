@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .btn {
+	width: 140px;
+	height: 50px;
+	background: linear-gradient(to top, #3964ce, #0d4394, #23487f);
+	color: #fff;
+	border-radius: 50px;
+	position: relative;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+  }
+  
+  div {
+	padding: 20px; 
+  }
+  
+  body{
+	background-color: #30d6b8;
+  }

@@ -1,0 +1,38 @@
+#effect1 {
+    background-color: orange;
+    transition: background-color 1s ease-in-out;
+  }
+  
+  #effect1:hover {
+    background-color: red;
+  }
+  
+  #effect2{
+    background-color: aqua;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  #effect2:hover {
+    width: 400px;
+  }
+  
+  #effect3 {
+    background-color: yellow;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #effect3:hover {
+    opacity: 0.5;
+  }
+  
+  #effect4 {
+    background-color: lightgreen;
+    border-radius: 0;
+    transition: border-radius 0.5s ease-in-out;
+  }
+  
+  #effect4:hover {
+    border-radius: 50%;
+  }
+  

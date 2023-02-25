@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Element Transformations</title>
+</head>
+<body>
+    <center><h1>Element Transformations</h1></center>
+    <div class="container">
+        <img id="image" src="photo.png">
+    </div>
+    <div class="container">
+        <button  onclick="handleButtonClick(1)" class="btn" id="button1">Hide</button>
+        <button onclick="handleButtonClick(2)" class="btn" id="button2">Rotate</button>
+        <button onclick="handleButtonClick(3)" class="btn" id="button3">Shrink</button>
+        <button onclick="handleButtonClick(4)" class="btn" id="button4">Blur</button>
+    </div>
+</body>
+<script>
+function handleButtonClick(buttonNum) {
+  var image = document.getElementById("image");
+  if (buttonNum == 1) {
+    setTimeout(function() {
+      image.style.opacity = "0";
+    }, 500);
+  } else if (buttonNum == 2) {
+    setTimeout(function() {
+      image.style.transform = "rotate(180deg)";
+    }, 500);
+  } else if (buttonNum == 3) {
+    setTimeout(function() {
+      image.style.width = "200px";
+    }, 500);
+  } else if (buttonNum == 4) {
+    setTimeout(function() {
+      image.style.filter = "blur(5px)";
+    }, 500);
+  }
+}
+
+
+    </script>
+</html>
